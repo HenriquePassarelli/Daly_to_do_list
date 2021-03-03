@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./stylesheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h2>Daly to do list</h2>
+    </header>
+
+    <main>
+
+        <div class="time">
+            <p id="Hours"></p>
+            <p id="day"></p>
+        </div>
+
+        <div >
+            <ul id="list">
+
+            </ul>
+        </div>
+
+        
+
+        <footer>
+
+        </footer>
+        <div id="New-task">
+            <input type="text" name="newtask" onfocus="this.value=''" id="new-task" placeholder=" Write">
+            <input type="button" value="Add" id="add-button" onclick="List.addItem()">
+        </div>
+
+
+    </main>
+
+
+    <script src="./scripts.js"></script>
+</body>
+
+</html>
