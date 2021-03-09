@@ -9,7 +9,7 @@ function DalyDate() {
     let months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
     let day = today.getDate();
     document.getElementById("Hours").innerHTML = time;
-    document.getElementById("day").innerHTML = weekday[today.getDate()] + " , " + months[today.getMonth()] + " " + day;
+    document.getElementById("day").innerHTML = weekday[today.getDay()] + " , " + months[today.getMonth()] + " " + day;
 
 }
 
